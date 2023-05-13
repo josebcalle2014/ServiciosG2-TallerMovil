@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ServiciosClinicaUNMSM\\ServiciosClinicaUNMSM\\ServiciosClinicaUNMSM.csproj": {}
+    "C:\\Users\\Jose\\Documents\\Proyectos\\Servicio\\ServiciosClinicaUNMSM.csproj": {}
   },
   "projects": {
-    "D:\\ServiciosClinicaUNMSM\\ServiciosClinicaUNMSM\\ServiciosClinicaUNMSM.csproj": {
+    "C:\\Users\\Jose\\Documents\\Proyectos\\Servicio\\ServiciosClinicaUNMSM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ServiciosClinicaUNMSM\\ServiciosClinicaUNMSM\\ServiciosClinicaUNMSM.csproj",
+        "projectUniqueName": "C:\\Users\\Jose\\Documents\\Proyectos\\Servicio\\ServiciosClinicaUNMSM.csproj",
         "projectName": "ServiciosClinicaUNMSM",
-        "projectPath": "D:\\ServiciosClinicaUNMSM\\ServiciosClinicaUNMSM\\ServiciosClinicaUNMSM.csproj",
+        "projectPath": "C:\\Users\\Jose\\Documents\\Proyectos\\Servicio\\ServiciosClinicaUNMSM.csproj",
         "packagesPath": "C:\\Users\\Jose\\.nuget\\packages\\",
-        "outputPath": "D:\\ServiciosClinicaUNMSM\\ServiciosClinicaUNMSM\\obj\\",
+        "outputPath": "C:\\Users\\Jose\\Documents\\Proyectos\\Servicio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,9 +49,19 @@
               "target": "Package",
               "version": "[7.0.5, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
