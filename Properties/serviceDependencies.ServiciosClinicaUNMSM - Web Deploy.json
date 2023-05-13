@@ -6,9 +6,9 @@
     },
     "mssql1": {
       "secretStore": "AzureAppSettings",
+      "resourceId": null,
       "type": "mssql.onprem",
-      "connectionId": "ConnectionStrings:ClinicaUnmsmConnection",
-      "dynamicId": null
+      "connectionId": "ConnectionStrings:ClinicaUnmsmConnection"
     }
   }
 }

@@ -7,7 +7,12 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAh/gZmaDtJkOlqrdgVNFjFAAAAAACAAAAAAAQZgAAAAEAACAAAABCLRO+Qqgkue6bnb5fYu1u9zaY9dR5rr0fRHvZGl0CPAAAAAAOgAAAAAIAACAAAAAxSOzw21Y2gM6wlN3xUCxMLcUzKJNw0uJl1zsoKAOmaoAAAAAv58nvczftJcc21UXhULJWjRiSn7Tnzi+b2tZbkmZl89ug62HFhNlc6t1JhXnhnl7T72un30fDNmZt9V6qBeb/ldXhA08J3v97zFABvnShx6/F1+d8LLqrrrtbYklnCWMfl9FFPm93UvSNRf5+jGh3E9XBtmQ6odZcotelnqXwGkAAAABtnGkef94v7kuexYPzAsYMq02VyisfuGgBu6Z76164BPQwqe2SDvE659h0Z4TJlf4GQPx6tMCU3EIct5Y/CB+L</EncryptedPassword>
-    <History>True|2023-05-13T12:49:12.4076155Z;</History>
+    <History>True|2023-05-13T15:37:23.0644562Z;False|2023-05-13T10:32:40.9622364-05:00;False|2023-05-13T10:31:14.3701863-05:00;False|2023-05-13T10:29:45.8759257-05:00;False|2023-05-13T10:22:13.5639153-05:00;True|2023-05-13T10:09:36.1433667-05:00;True|2023-05-13T09:43:19.4314442-05:00;False|2023-05-13T09:42:16.6202485-05:00;False|2023-05-13T09:41:46.1026908-05:00;True|2023-05-13T09:41:33.1504733-05:00;False|2023-05-13T09:39:16.6808481-05:00;False|2023-05-13T09:37:46.8074507-05:00;False|2023-05-13T09:35:56.6789759-05:00;True|2023-05-13T09:13:43.7850765-05:00;True|2023-05-13T09:06:58.6321759-05:00;False|2023-05-13T08:56:25.3521047-05:00;False|2023-05-13T08:51:16.6147250-05:00;False|2023-05-13T08:50:37.8267159-05:00;True|2023-05-13T07:49:12.4076155-05:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="ServiciosClinicaUNMSM.Datos.ApplicationDBContext">
+      <Value>Server=tcp:clinicaunmsm.database.windows.net%3bInitial Catalog=BDClinicaUnmsm%3b Persist Security Info = False%3b User ID=sqlserver2023%3b Password=UnmsmUnmsm2023%3bMultipleActiveResultSets= False%3bEncrypt=True%3bTrustServerCertificate=False</Value>
+    </EFMigrations>
+  </ItemGroup>
 </Project>

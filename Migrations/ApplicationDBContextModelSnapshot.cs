@@ -97,6 +97,21 @@ namespace ServiciosClinicaUNMSM.Migrations
                     b.HasKey("id_usuario");
 
                     b.ToTable("Usuarios");
+
+                    b.HasData(
+                        new
+                        {
+                            id_usuario = 1,
+                            apellidoMaterno = "Soraluz",
+                            apellidoPaterno = "Calle",
+                            contrasenia = "12345",
+                            correo = "jose.callesoraluz@unmsm.edu.pe",
+                            estado = 1,
+                            fechaActualizacion = new DateTime(2023, 5, 13, 11, 17, 38, 983, DateTimeKind.Local).AddTicks(8341),
+                            fechaCreacion = new DateTime(2023, 5, 13, 11, 17, 38, 983, DateTimeKind.Local).AddTicks(8327),
+                            imagen = "",
+                            nombre = "Jose Bryan"
+                        });
                 });
 #pragma warning restore 612, 618
         }

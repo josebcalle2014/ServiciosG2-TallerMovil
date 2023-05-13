@@ -3,4 +3,7 @@
   <parameter name="IIS Web Application Name" description="" value="ServiciosClinicaUNMSM" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Jose\\Documents\\Proyectos\\Servicio\\obj\\Release\\net7\.0\\PubTmp\\Out\\$" />
   </parameter>
+  <parameter name="ServiciosClinicaUNMSM.Datos.ApplicationDBContext" description="" value="Server=tcp:clinicaunmsm.database.windows.net;Initial Catalog=BDClinicaUnmsm; Persist Security Info = False; User ID=sqlserver2023; Password=UnmsmUnmsm2023;MultipleActiveResultSets= False;Encrypt=True;TrustServerCertificate=False" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Jose\\Documents\\Proyectos\\Servicio\\obj\\Release\\net7\.0\\PubTmp\\EFSQLScripts\\ServiciosClinicaUNMSM\.Datos\.ApplicationDBContext\.sql$" />
+  </parameter>
 </parameters>

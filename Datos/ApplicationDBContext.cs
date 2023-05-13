@@ -13,7 +13,7 @@ namespace ServiciosClinicaUNMSM.Datos
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Noticias> Noticias { get; set;} 
 
-        /*protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Usuario>().HasData(
 
@@ -30,6 +30,6 @@ namespace ServiciosClinicaUNMSM.Datos
                     imagen = "",
                     estado=1
                 });
-        }*/
+        }
     }
 }

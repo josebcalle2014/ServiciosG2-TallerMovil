@@ -9,8 +9,7 @@
     },
     "mssql1": {
       "type": "mssql",
-      "connectionId": "ConnectionStrings:ClinicaUnmsmConnection",
-      "dynamicId": null
+      "connectionId": "ConnectionStrings:ClinicaUnmsmConnection"
     }
   }
 }
